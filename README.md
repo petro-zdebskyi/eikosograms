@@ -11,6 +11,6 @@ pip install eikosograms
 ## Usage
 ```python
 >>> from eikosograms import eikosograms
->>> eikosogram.draw_chart(.8, .3, .4, names=('Rain', 'Cloudy'), min_labels=False)
+>>> eikosograms.draw_chart(.8, .3, .4, names=('Rain', 'Cloudy'), min_labels=False)
 ```
 Check function docstring for more details.
