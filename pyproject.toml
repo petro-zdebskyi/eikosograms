@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eikosograms"
+version = "0.0.1"
+authors = [
+  { name="Petro Zdebskyi", email="petrozd@gmail.com" },
+]
+description = "A small package for drawing eikosograms"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/petro-zdebskyi/eikosograms"
+Issues = "https://github.com/petro-zdebskyi/eikosograms/issues"
